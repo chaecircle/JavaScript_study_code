@@ -14,3 +14,12 @@ function sayHello(nameOfPerson, age) {
   plus(10, 12);
   plus(20, 235);
   plus(); // NaN : Not a number
+
+  
+function divide(a, b){
+    console.log(a / b);
+  }
+  
+  divide(10, 2);
+  divide(20, 3);
+  
