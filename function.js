@@ -41,3 +41,7 @@ const player = {
   };
   
   sayMyName('chaewon', 'hyunjae');
+
+// 각 object가 어떻게 구성되었는지 확인할 수 있음
+console.log(player)
+console.log(console)
