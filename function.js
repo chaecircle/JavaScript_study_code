@@ -55,3 +55,14 @@ function anything(num) {
 // 아래와 같이 인자를 여러 개 주어도 차례로 앞에 있는 것만 인식하여 함수가 작동함
 // 파이썬과 다른 점임!
 anything(5, 10, 11)
+
+const etc = {
+    name: 'Harry',
+    sayILoveYou: function (name) {
+        console.log('I love you,', name);
+    }
+};
+
+etc.sayILoveYou('HyunJae');
+
+
